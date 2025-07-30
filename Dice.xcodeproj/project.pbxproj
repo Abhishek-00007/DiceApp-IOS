@@ -6,6 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		46EB2CE62E3A8A420053C617 /* DiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2CE32E3A8A420053C617 /* DiceApp.swift */; };
+		46EB2CE72E3A8A420053C617 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2CE22E3A8A420053C617 /* ContentView.swift */; };
+		46EB2CEC2E3A8B0F0053C617 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2CEB2E3A8B0F0053C617 /* art.scnassets */; };
+		46EB2CF42E3A8DC20053C617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2CF22E3A8DC20053C617 /* Main.storyboard */; };
+		46EB2CF52E3A8DC20053C617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2CF02E3A8DC20053C617 /* LaunchScreen.storyboard */; };
+		46EB2CFB2E3A93020053C617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2CFA2E3A93020053C617 /* Assets.xcassets */; };
+		46EB2CFF2E3A99DF0053C617 /* dice-roll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2CFE2E3A99DF0053C617 /* dice-roll.mp3 */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		462670C52E3A825E009AE687 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,14 +37,17 @@
 		462670B72E3A825D009AE687 /* Dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		462670C42E3A825E009AE687 /* DiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		462670CE2E3A825E009AE687 /* DiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EB2CE22E3A8A420053C617 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		46EB2CE32E3A8A420053C617 /* DiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceApp.swift; sourceTree = "<group>"; };
+		46EB2CE42E3A8A420053C617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46EB2CEB2E3A8B0F0053C617 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		46EB2CEF2E3A8DC20053C617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46EB2CF12E3A8DC20053C617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		46EB2CFA2E3A93020053C617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "/Users/abhishek/Downloads/AppIcons (1)/Assets.xcassets"; sourceTree = "<absolute>"; };
+		46EB2CFE2E3A99DF0053C617 /* dice-roll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "dice-roll.mp3"; path = "/Users/abhishek/Downloads/dice-roll.mp3"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		462670B92E3A825D009AE687 /* Dice */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Dice;
-			sourceTree = "<group>";
-		};
 		462670C72E3A825E009AE687 /* DiceTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = DiceTests;
@@ -75,7 +88,7 @@
 		462670AE2E3A825D009AE687 = {
 			isa = PBXGroup;
 			children = (
-				462670B92E3A825D009AE687 /* Dice */,
+				46EB2CE52E3A8A420053C617 /* Dice */,
 				462670C72E3A825E009AE687 /* DiceTests */,
 				462670D12E3A825E009AE687 /* DiceUITests */,
 				462670B82E3A825D009AE687 /* Products */,
@@ -92,6 +105,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		46EB2CE52E3A8A420053C617 /* Dice */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2CFE2E3A99DF0053C617 /* dice-roll.mp3 */,
+				46EB2CF32E3A8DC20053C617 /* Base.lproj */,
+				46EB2CEB2E3A8B0F0053C617 /* art.scnassets */,
+				46EB2CE22E3A8A420053C617 /* ContentView.swift */,
+				46EB2CE32E3A8A420053C617 /* DiceApp.swift */,
+				46EB2CE42E3A8A420053C617 /* Info.plist */,
+				46EB2CFA2E3A93020053C617 /* Assets.xcassets */,
+			);
+			path = Dice;
+			sourceTree = "<group>";
+		};
+		46EB2CF32E3A8DC20053C617 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2CF02E3A8DC20053C617 /* LaunchScreen.storyboard */,
+				46EB2CF22E3A8DC20053C617 /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = "/Users/abhishek/Downloads/ARdice-master/ARdice/Base.lproj";
+			sourceTree = "<absolute>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +143,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				462670B92E3A825D009AE687 /* Dice */,
 			);
 			name = Dice;
 			packageProductDependencies = (
@@ -192,6 +226,7 @@
 			knownRegions = (
 				en,
 				Base,
+				base1,
 			);
 			mainGroup = 462670AE2E3A825D009AE687;
 			minimizedProjectReferenceProxies = 1;
@@ -212,6 +247,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46EB2CF42E3A8DC20053C617 /* Main.storyboard in Resources */,
+				46EB2CF52E3A8DC20053C617 /* LaunchScreen.storyboard in Resources */,
+				46EB2CFB2E3A93020053C617 /* Assets.xcassets in Resources */,
+				46EB2CEC2E3A8B0F0053C617 /* art.scnassets in Resources */,
+				46EB2CFF2E3A99DF0053C617 /* dice-roll.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46EB2CE62E3A8A420053C617 /* DiceApp.swift in Sources */,
+				46EB2CE72E3A8A420053C617 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +309,25 @@
 			targetProxy = 462670CF2E3A825E009AE687 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46EB2CF02E3A8DC20053C617 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46EB2CEF2E3A8DC20053C617 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		46EB2CF22E3A8DC20053C617 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46EB2CF12E3A8DC20053C617 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		462670D62E3A825E009AE687 /* Debug */ = {
@@ -399,7 +460,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UNDRHA7SVG;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/Dice/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -427,7 +489,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UNDRHA7SVG;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/Dice/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
